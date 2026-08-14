@@ -6,7 +6,8 @@ O objetivo deste laboratório é validar os conceitos fundamentais de conectivid
 ---
 
 ## 2. Diagrama de Topologia
-![Topologia do Lab 01](lab1.png)
+<img width="909" height="440" alt="image" src="https://github.com/user-attachments/assets/35124098-a053-4673-83b5-1fc191f6e2f9" />
+
 
 ---
 
