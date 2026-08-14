@@ -6,7 +6,7 @@ O objetivo deste laboratório é validar os conceitos fundamentais de conectivid
 ---
 
 ## 2. Diagrama de Topologia
-![Topologia do Lab 01](topology.png)
+![Topologia do Lab 01](lab1.png)
 
 ---
 
@@ -36,8 +36,7 @@ O objetivo deste laboratório é validar os conceitos fundamentais de conectivid
   Ping statistics for 192.168.1.20:
       Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
 
-  ## 6. Análise Técnica
-
+## 6. Análise Técnica
 * **Por que os computadores conseguem se comunicar sem roteador?**
   > Ambos os dispositivos pertencem ao mesmo domínio de broadcast e à mesma sub-rede lógica (`192.168.1.0/24`). O switch opera na Camada 2 (Enlace), encaminhando quadros Ethernet baseado exclusivamente nos endereços MAC locais.
 * **O que aconteceria se um dos hosts estivesse na faixa `192.168.2.x`?**
