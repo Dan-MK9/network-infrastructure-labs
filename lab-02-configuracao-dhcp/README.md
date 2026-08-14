@@ -28,15 +28,18 @@ Router> enable
 Router# configure terminal
 
 ! Configuração da interface local (Gateway)
+
 Router(config)# interface gigabitethernet 0/0
 Router(config-if)# ip address 192.168.10.1 255.255.255.0
 Router(config-if)# no shutdown
 Router(config-if)# exit
 
 ! Reserva de endereços estáticos (fora do escopo de concessão)
+
 Router(config)# ip dhcp excluded-address 192.168.1.1 192.168.1.10
 
 ! Criação e parametrização do Pool DHCP
+
 Router(config)# ip dhcp pool RedeLab2
 Router(dhcp-config)# network 192.168.10.0 255.255.255.0
 Router(dhcp-config)# default-router 192.168.10.1
